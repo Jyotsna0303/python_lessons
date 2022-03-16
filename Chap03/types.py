@@ -26,7 +26,7 @@ x = 7/3
 print('x is {}'.format(x))
 print(type(x)) #class float
 
-x = 7 // 3  # 2, class int
+x = 7 // 3  # 2, class int floor division
 
 x = 7 %3 # 1, class int
 
