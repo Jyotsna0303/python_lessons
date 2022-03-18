@@ -25,6 +25,9 @@ def main():
     del game[1:3]
     del game[1:5:2]
 
+    #few other methos
+    game.count('Computer'); #return 1, counts the occurence of elements in list.
+    
     #tuple is same as list, but it is immutable. modification methods wont be available
 def print_list(o):
     for i in o: print(i, end=' ', flush=True)
