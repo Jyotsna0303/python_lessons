@@ -14,11 +14,12 @@ def main():
     #search for index with value
     i=game.index('Paper')#ValueError if value is not present in list
     print(i)
+    i=game.index('Paper',1,5) #it will check from index 1 to 4, 1= start, 5 is end
 
     # modify the list
     game.append('Computer')
     game.insert(0,'Mouse')
-    game.remove('Mouse')
+    game.remove('Mouse') #ValueError if element not present 
     x=game.pop() #pop() returns the last value and removes from the list
     x=game.pop(3)
     del game[3]
