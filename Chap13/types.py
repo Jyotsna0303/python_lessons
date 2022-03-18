@@ -4,7 +4,7 @@
 x = '47'
 y = int(x) #converting string to int
 
-z=divmod(47, 3) #return a tuple (15,2)
+z=divmod(47, 3) #return a tuple (15,2) returns quotiend and remainder
 
 print(f'x is {type(x)}')
 print(f'x is {x}')
