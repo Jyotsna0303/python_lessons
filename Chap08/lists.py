@@ -28,6 +28,13 @@ def main():
 
     #few other methos
     game.count('Computer'); #return 1, counts the occurence of elements in list.
+    print(max(game))
+    print(min(game))
+    print(sum(game))
+    print(game.sort()) #by default it is in increasing order
+    print(game.reverse())
+    
+    #max(), min(),sum(),sort() these method wont work if there are mixed items inside the list
     
     #tuple is same as list, but it is immutable. modification methods wont be available
 def print_list(o):
