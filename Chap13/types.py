@@ -34,11 +34,11 @@ n=min(x)
 # all(x) returns True if all of the elememts are true
 
 x=(1,2,3,4,5)
-y=(6,7,8,9,10)
+y=(6,7,8,9)
 z= zip(x,y)
 for a,b in z:
     print(f'{a} - {b}')
-
+#((1,6),(2,7),(3,8),(4,9))
 x= ('cat','dog')
 for i,v in enumerate(x): print(f'{i}:{v}')
 #0:cat
