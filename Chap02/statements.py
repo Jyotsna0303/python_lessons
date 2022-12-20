@@ -13,4 +13,5 @@ print('This is python version {}'.format(version)); print('hello')
 
 #above all are statements
 #second and third are expressions too
-#no multiple lines comments in python
+''' multiple line comments 
+'''
