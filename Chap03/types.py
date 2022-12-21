@@ -17,7 +17,7 @@ a = """ seven """ #same as z
 #all are of typestr
 
 #string literals are also objects
-x = 'seven'.capitalize()
+x = 'seven night'.capitalize() #Seven night
 x = 'seven'.upper()
 
 
