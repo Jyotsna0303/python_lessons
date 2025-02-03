@@ -15,3 +15,13 @@ if x < y: print('x < y: x is {} and y is {}'.format(x, y)) #this will also work
 
 #python doesnt have case and switch
 #python 3.10 has match and case: https://www.freecodecamp.org/news/python-switch-statement-switch-case-example/
+match term:
+    case pattern-1:
+         action-1
+    case pattern-2:
+         action-2
+    case pattern-3:
+         action-3
+    case _:
+        action-default
+#underscore is the default of case. 
