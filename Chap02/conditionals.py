@@ -25,3 +25,4 @@ match term:
     case _:
         action-default
 #underscore is the default of case. 
+#break keyword is not required as it is done behind the scenes.
