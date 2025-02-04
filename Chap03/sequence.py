@@ -8,6 +8,21 @@ x[2]= 42
 for i in x:
     print('i is {}'.format(i))
 
+#for finding index we can use index() method
+
+ 
+#The enumerate() function in Python is used to iterate over a sequence (like a list, tuple, or string) while keeping track of the index.
+x = ['a', 'b', 'c', 'd']
+
+for index, value in enumerate(x):
+    print(f"Index: {index}, Value: {value}")
+#for multiple occurences
+x = [10, 20, 42, 30, 42, 50]
+target = 42
+
+indices = [i for i, value in enumerate(x) if value == target] #List comprehension
+print(indices) #[2,4] 
+
 #list is mutable, we can access with index.
 #tuple is not mutable. tuple works same as list except we cannot change content of tuple.
 
