@@ -4,9 +4,9 @@
 animals = ( 'bear', 'bunny', 'dog', 'cat', 'velociraptor' )
 
 for pet in animals:
-    if pet=='dog' : continue
+    if pet=='dog' : continue # Skip 'dog' and move to the next iteration
     print(pet)
-else :
+else : #In Python, a for loop can have an else block, which is executed only if the loop completes normally (i.e., without encountering a break).
     print('This is all')
 #bear,bunny,cat, velociraptor, This is all.
 
